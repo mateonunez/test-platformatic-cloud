@@ -2,8 +2,4 @@
 'use strict'
 
 /** @param {import('fastify').FastifyInstance} app */
-module.exports = async function (app) {
-  app.get('/', async (request, reply) => {
-    return { hello: 'world' }
-  })
-}
+module.exports = async function (app) {}
